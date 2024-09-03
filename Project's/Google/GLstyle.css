@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: url(../media/back.webp) no-repeat center/cover; */
+    background: url(../media/baner.jpg) no-repeat center/cover;
+    /* color: rgb(20, 20, 70); */
+    color: #120f38;
+    
+}
+header{
+    height: 100vh;
+}
+a {
+  float: right;
+  margin-top: 24px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 25px;  
+}
+
+.container{
+    width: 98%;
+    margin: auto;
+}
+
+.main{
+    clear: both;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+h1{
+    padding-top: 100px;
+    font-size: 90px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    margin: 50px 0px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-left: 60px;
+    line-height: 100%;
+    cursor:auto;
+}
+input:hover{
+    width: 100%;
+    height: 50px;
+    margin: 50px 0px;
+    background-color:#1a1b3890;
+    background-color: rgba(255, 255, 255, 0.700);
+    border: none;
+    border-radius: 30px;
+    cursor:auto;
+}
+.input {
+    position: relative;
+}
+
+.search{
+    position: absolute;
+    color: #0d0e2e;
+    font-size: 16px;
+    top: 67px;
+    left: 25px;
+}
+
+.mic{
+    position: absolute;
+    color: #211d57;
+    font-size: 18px;
+    top: 67px;
+    right: 60px;
+}
+
+.camera{
+    position: absolute;
+    color:#a68311;
+    color: #211d57;
+    font-size: 18px;
+    top: 67px;
+    right: 25px;
+}
+
+.round{
+    font-size: 25px;
+    color: black;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 45px;
+    font-weight:bolder;
+}
+
+.shortcut:hover{
+    width: 100px;
+    height: 110px;
+    padding: 20px 10px 10px;
+    margin: auto;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px) ;
+    background-color: rgba(241, 241, 241, 0.25);
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 13px;
+    margin-top: 15px;
+}
+.Menu{
+    margin-right: 5px;
+}

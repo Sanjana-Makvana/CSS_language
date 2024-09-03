@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'lato';
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+.contanier{
+    height: 918px;
+    width: 1930px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img{
+    height: 95%;
+    flex: 0 1 53vw;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+}
+
+.x-logo{
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+}
+
+h1, h3{
+    color: #e7e9ea;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 65px;
+    margin-top: 160px;
+    margin-left: 25px;
+}
+h3{
+    font-size: 31px;
+    margin-top: 45px;
+    margin-left: 25px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 25px;
+    line-height: 40px;
+}
+
+.btn-google{
+    background-color: #fff;
+    font-weight: 400;
+    color: #000;
+    transition: all .2s ease;
+    margin-top: 38px;
+}
+
+.btn-google:hover{
+    background-color: rgb(244, 243, 243);
+    background-color: #fffffff7;
+    
+}
+
+.btn-apple{
+    background-color: #fff;
+    font-weight: 700;
+    color: #000;
+    transition: all .2s ease;
+    margin-top: 11px;
+    
+}
+
+.btn-apple:hover{
+    background-color: rgb(220, 220, 220);
+    
+}
+.option{
+    color: #e7e9ea;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.option::before{
+    position: absolute;
+    content: '';
+    width: 140px;
+    height: 1px;
+    background: #212426;
+    left: 0;
+    top: 50%;
+    transform: translate(15%);
+    border-radius: 50px;
+}
+.option::after{
+    position: absolute;
+    content: '';
+    width: 140px;
+    height: 1px;
+    background: #212426;
+    right: 0;
+    top: 50%;
+    transform: translate(-15%);
+    border-radius: 50px;
+}
+.btn-account{
+    background-color: #1d98f0;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all .2s ease;
+    margin-top: 10px;
+    letter-spacing: 0.7px;
+}
+
+.btn-account:hover{
+    background-color:#1b8bdb;     
+}
+
+.footer{
+    padding-bottom: 4px;
+    margin-left: 170px;
+}
+
+.footer nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer nav a,
+.footer nav div{
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    margin: .3rem .5rem;
+    text-transform: capitalize;
+    transition: all .2s ease;
+    color: #71767b;
+    
+}
+.footer nav a:hover{
+    border-bottom: 1px solid #4e5052;
+    
+}
+
+.fa-google{
+    font-size: 30px;
+    color: #fff;
+}
+
+.note{
+    font-size: 11px;
+    color: #71767b;
+    letter-spacing: 0.7px;
+    margin-left: 25px;
+    margin-top: 6px;
+}
+.note a {
+    text-decoration: none;
+    color: #1d9bf0;
+}
+.note a:hover{
+    border-bottom: 0.7px solid #1d9bf0;
+}
+.button img{
+    height: 20px;
+    margin-right: 10px;
+}
+.note-2{
+    color: #e7e9ea;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 25px;
+    letter-spacing: 0.7px;
+}
+.btn-signin{
+    font-weight:900;
+    color: #1d9bf0;
+    transition: all .2s ease;
+    margin-top: 25px;
+    border: 1px rgb(216, 216, 216) solid;
+    letter-spacing: 0.7px;
+}
+
+.btn-signin:hover{
+     background-color: #1d9cf01f;
+
+}

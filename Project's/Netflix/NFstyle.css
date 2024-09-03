@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+nav {
+    position: fixed;
+    padding: 25px 60px;
+    z-index: 1;
+}
+
+nav a img {
+    width: 250px;
+    height:150px;
+    
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 4px;
+    padding: 70px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .64);
+}
+
+.wrapper h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.wrapper form {
+    margin: 25px 0 65px;
+}
+
+form .control {
+    height: 50px;
+    position: relative;
+    margin-bottom: 16px;
+ 
+}
+
+.control input {
+    height: 100%;
+    width: 100%;
+    background: #44444483;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+.control input:is(:focus, :valid) {
+    background: #44444483;
+    padding: 16px 20px 0;
+}
+
+.control label {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.1s ease;
+}
+
+.control input:is(:focus, :valid)~label {
+    font-size: 12px;
+   transform: translateY(-130%);
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    padding: 16px 0;
+    font-size: 1rem;
+    background: #e50914;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 10px 0 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+    line-height: 0.6rem;
+}
+
+button:hover {
+    background: #a30810;
+}
+button #B2{
+    width: 100%;
+    height: 40px;
+    padding: 16px 0;
+    font-size: 1rem;
+    background: #e50914;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 20px 0 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+    line-height: 40px;
+}
+
+button#B2:hover {
+    background: #a30810;
+}
+
+h3{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.wrapper a {
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+.wrapper :where(label, p, small, a) {
+    color: #b3b3b3;
+}
+
+ .help {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .remember-me {
+    display: flex;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.help :where(label, a) {
+    font-size: 14px;
+}
+
+.wrapper p a {
+    color: #fff;
+}
+
+.wrapper small {
+    display: block;
+    margin-top: 15px;
+    color: #b3b3b3;
+}
+
+.wrapper small a {
+    color: #0071eb;
+}
